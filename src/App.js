@@ -10,7 +10,6 @@ import Tabs from './Components/Tabs';
 function App() {
   return (
     <div className="App">
-      <Tabs/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>

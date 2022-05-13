@@ -5,12 +5,15 @@
 }
 
 button{
-    color: green;
+    color: white;
     font-size: 30px;
     font-weight: 200;
     margin-left: 5%;
     background-color: transparent;
-    border: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: yellow;
 }
 
 button:hover {
