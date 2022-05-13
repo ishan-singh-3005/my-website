@@ -17,7 +17,7 @@ class Work extends Component {
             <h5>July 2020 - September 2020</h5>
           </div>
           <div class="column2">
-            <h4>Software Developer</h4>
+            <h4><b>Software Developer</b></h4>
             <h4>
               Using leading technologies while working in an agile environment.
             </h4>
@@ -31,11 +31,11 @@ class Work extends Component {
             <h5>July 2020 - September 2020</h5>
           </div>
           <div class="column2">
-            <h4>Research Assisstant</h4>
+            <h4><b>Research Assisstant</b></h4>
             <h4>
               Using leading technologies while working in an agile environment.
             </h4>
-            <h4>Mentor</h4>
+            <h4><b>Mentor</b></h4>
             <h4>
               Using leading technologies while working in an agile environment.
             </h4>

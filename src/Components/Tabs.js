@@ -15,9 +15,9 @@ class Tabs extends Component {
           <a href='/work'>
             <button>Work</button>
           </a>
-          <a href='/volunteer'>
+          {/* <a href='/volunteer'>
             <button>Volunteer</button>
-          </a>
+          </a> */}
           <a href='/contact'>
             <button>Contact</button>
           </a>
