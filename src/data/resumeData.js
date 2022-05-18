@@ -4,7 +4,11 @@ const data = [
     suffix: ['currently working as a software developer @ RBC', 'second year CS student @ UofT', 'volunteer for Visions of science', 'passionate programmer'],
   },
   {
-    subHeading: "I am a second year student at the University of Toronto - Mississauga studying Computer Science",
+    subHeading: "Education",
+    education: "Student at University of Toronto",
+    time: "September 2021 - Present",
+    program: "Specialization in Computer Science with a several business electives",
+    gpa: "CGPA: 3.96",
     aboutMe: "I am a hard-working student with an aptitude of developing innovative solutions to complex problems. \
     I see myself as an optimist and self-motivated person who can work in teams contributing to the \
     ever-changing needs of business. I have an excellent academic record and diverse working experience \

@@ -3,7 +3,6 @@ import $ from 'jquery';
 import Home from './Components/Home';
 import About from './Components/About';
 import Work from './Components/Work';
-import Volunteer from './Components/Volunteer';
 import Contact from './Components/Contact';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Component } from 'react';
@@ -20,7 +19,6 @@ export default class App extends Component {
             <Route path="/" element={<Home data={data}/>}/>
             <Route path="/about" element={<About data={data}/>}/>
             <Route path="/work" element={<Work data={data}/>}/>
-            <Route path="/volunteer" element={<Volunteer data={data}/>}/>
             <Route path="/contact" element={<Contact data={data}/>}/>
           </Routes>
         </BrowserRouter>
