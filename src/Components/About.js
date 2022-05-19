@@ -39,8 +39,29 @@ class About extends Component {
           </div>
         </div>
         <div className='section'>
-          <h2>Technologies I have used</h2>
-          <Tech />
+          <div class="row">
+            <div class="column1">
+              <h2>Technologies</h2>
+              <Tech />
+            </div>
+            <div class="column2">
+              <h2>
+                My projects
+              </h2>
+              <h3 className='about-e'>
+                1
+              </h3>
+              <h3 className='about-e'>
+                1
+              </h3>
+              <h3 className='about-e'>
+                1
+              </h3>
+              <h3 className='about-e'>
+                1
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     );
