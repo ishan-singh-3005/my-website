@@ -7,6 +7,11 @@ function navToLinkedIn(){
   window.open('https://www.linkedin.com/in/ishan-s/')
 }
 
+function navToGitHub(){
+  window.open('https://github.com/ishan-singh-3005')
+}
+
+
 class Home extends Component {
   
   render() {
@@ -23,6 +28,7 @@ class Home extends Component {
             <h1 className='name'>{name}</h1>
             <h2>I am a <ReactRotatingText items={suffix} /></h2>
             <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px',}}></img>
+            <img onClick={navToGitHub} alt="GitHub" src="../github.png" style={{width:'80px', paddingBottom:"10px"}}></img>
         </header>
       )
   }

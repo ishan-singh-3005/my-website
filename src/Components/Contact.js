@@ -52,16 +52,21 @@ export default function Contact() {
       window.open('https://www.linkedin.com/in/ishan-s/')
     }
 
+    function navToGitHub(){
+      window.open('https://github.com/ishan-singh-3005')
+    }    
+
     var ReactRotatingText = require('react-rotating-text');
 
     return(
         <div className="contact">
           <Tabs/>
-          <h2>Connect via <ReactRotatingText items={["LinkedIn", "Email"]} /></h2>
+          <h2>Connect via <ReactRotatingText items={["LinkedIn", "GitHub", "Email"]} /></h2>
           <div className="contact-icons">
             <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px', marginRight:'5%'}}></img>
+            <img onClick={navToGitHub} alt="GitHub" src="../github.png" style={{width:'80px', paddingBottom:"10px"}}></img>
             <a href="mailto:myemailaddress@gmail.com" role="button" className="other">          
-              <img alt="Email" src="../email.png" style={{width:'90px',}}></img>
+              <img alt="Email" src="../email.png" style={{width:'90px'}}></img>
             </a>
               <h5>ishan423@gmail.com</h5>
           </div>
