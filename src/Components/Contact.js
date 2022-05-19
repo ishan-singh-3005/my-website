@@ -60,10 +60,10 @@ export default function Contact() {
           <h2>Connect via <ReactRotatingText items={["LinkedIn", "Email"]} /></h2>
           <div className="contact-icons">
             <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px', marginRight:'5%'}}></img>
-            <a href="mailto:myemailaddress@gmail.com">
+            <a href="mailto:myemailaddress@gmail.com" role="button" className="other">          
               <img alt="Email" src="../email.png" style={{width:'90px',}}></img>
-              <h5>ishan423@gmail.com</h5>
             </a>
+              <h5>ishan423@gmail.com</h5>
           </div>
           <h2>Or send an email via the form below: </h2>
           <div className="form">

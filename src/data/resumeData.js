@@ -5,9 +5,9 @@ const data = [
   },
   {
     subHeading: "Education",
-    education: "Student at University of Toronto",
+    education: "Second year student at University of Toronto",
     time: "September 2021 - Present",
-    program: "Specialization in Computer Science with a several business electives",
+    program: "Working towards Honours Bachelors of Science: Computer Science",
     gpa: "CGPA: 3.96",
     aboutMe: "I am a hard-working student with an aptitude of developing innovative solutions to complex problems. \
     I see myself as an optimist and self-motivated person who can work in teams contributing to the \
@@ -23,7 +23,7 @@ const data = [
         dates: ["May 2022 - Present", "\n", "July 2021 - September 2021", "July 2020 - September 2020"],
         title: "Software developer",
         description: "Working in an agile environement to develop internal tools for the organisation",
-        technologies: "Javascript, Python, Java, React, Angular, Typescript"
+        technologies: "Javascript, React, Angular, Typescript"
       },
       {
         company: "University of Toronto",

@@ -11,8 +11,25 @@ html, body {
     right:0px;
     bottom:0px;
     left:0px;
+}
+
+.section{
+    /* height: 100%; */
+    /* background-image: linear-gradient(#0e1752, #000524, black); */
+    /* position:absolute; */
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
     display: block;
     text-align: center;
+}
+
+.section-2{
+    display: block;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 h1{
@@ -23,7 +40,7 @@ h1{
 
 h2{
     margin-top: 3%;
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(216, 236, 169);
 }
 
@@ -32,6 +49,7 @@ h2{
     font-size: 20px;
     font-weight: 200;
     line-height: 200%;
+    margin-top: 0;
 }
 
 .about-1{
@@ -40,12 +58,22 @@ h2{
     font-size: 20px;
     font-weight: 200;
     line-height: 200%;
+    display: inline;
+}
+
+.tech{
+    margin: 0;
+    margin-right: 2%;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 200%;
+    display: inline;
 }
 
 img{
     width: 250px;
     border-radius: 50%;
-    margin-left: 5%;
 }
 
 hr{
@@ -55,7 +83,7 @@ hr{
 
 .column1 {
     float: left;
-    width: 40%;
+    width: 25%;
     margin-top: 5%;
 }
 
@@ -63,7 +91,6 @@ hr{
     float: left;
     width: 50%;
     margin-left: 10%;
-    /* margin-right: 5%; */
     margin-top: 5%;
 }
 
@@ -73,12 +100,10 @@ hr{
     clear: both;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     img{
         width: 250px;
-        border-radius: 50%;
     }
-
     .column1{
         width: 100%;
         margin-left: 5%;
@@ -88,5 +113,10 @@ hr{
         width: 100%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .about-e{
+        font-size: 15px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
  }

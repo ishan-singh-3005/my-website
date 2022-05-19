@@ -65,7 +65,7 @@ html{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(216, 236, 169);
     margin-bottom: 0;
 }
@@ -74,4 +74,17 @@ h2{
     margin-top: 1%;
     display: block;
     text-align: center;
+}
+
+.other{
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+.input-box{
+    width: 60%;
+}
+.input-box-message{
+    width: 60%;
+}
 }

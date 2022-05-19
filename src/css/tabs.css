@@ -23,3 +23,9 @@ a:hover {
     cursor: pointer;
     color: #ff7700;
 }
+
+@media screen and (max-width: 800px) {
+    a{
+        font-size: 25px;
+    }
+}
