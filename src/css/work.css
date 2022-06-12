@@ -1,6 +1,6 @@
-html, body {
-    margin:0px;
-}
+/* html, body {
+    margin:0;
+} */
 
 .work{
     padding-top: 2%;
@@ -9,8 +9,9 @@ html, body {
     right:0px;
     bottom:0px;
     left:0px;
-    display: block;
+    /* display: block; */
     text-align: center;
+    margin: 0;
 }
 
 h1{
@@ -78,6 +79,9 @@ hr{
 }
 
 @media screen and (max-width: 800px) {
+    h1{
+        font-size: 40px;
+    }
     img{
         width: 250px;
         border-radius: 50%;

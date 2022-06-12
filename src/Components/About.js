@@ -20,7 +20,7 @@ class About extends Component {
           <Tabs/>
           <h1>About me</h1>
           <hr></hr>
-          <h2>{subHeading}</h2>
+          <h2 classname='sub-heading'>{subHeading}</h2>
           <h3 className='about-1'>{education}</h3><br/>
           <h3 className='about-1'>{time}</h3><br/>
           <h3 className='about-1'>{program}</h3><br/>
@@ -37,29 +37,31 @@ class About extends Component {
               </h3>
             </div>
           </div>
+              <h2 classname='sub-heading'>
+                My projects
+              </h2>
+              <a className='about-e' href='https://github.com/ishan-singh-3005/my-website'>My portfolio &#x2197;</a>
+              <a className='about-e' href='https://github.com/ishan-singh-3005/my-website'>Sorting Alogrithms &#x2197;</a>
+              <a className='about-e' href='https://github.com/ishan-singh-3005/my-website'>Abstract Data Structures &#x2197;</a>
+              <a className='about-e' href='https://github.com/ishan-singh-3005/my-website'>Python Projects &#x2197;</a>
         </div>
         <div className='section'>
           <div class="row">
-            <div class="column1">
-              <h2>Technologies</h2>
-              <Tech />
+            <div class="column3">
+            <h2 classname='sub-heading'>Tools</h2>
+                <h3 className='tools'>Git</h3>
+                <h3 className='tools'>GitHub</h3>
+                <h3 className='tools'>Visual Studio and Visual Studio Code</h3>
+                <h3 className='tools'>JetBrains Toolbox</h3>
+                <h3 className='tools'>Figma: Interface design tool</h3>
+                <h3 className='tools'>Lucidchart: Diagramming application</h3>
+                <h3 className='tools'>Sequelize: ORM</h3>
+                <h3 className='tools'>DBeaver: Universal database tool</h3>
+                <h3 className='tools'>Microsoft Office tools</h3>
             </div>
-            <div class="column2">
-              <h2>
-                My projects
-              </h2>
-              <h3 className='about-e'>
-                1
-              </h3>
-              <h3 className='about-e'>
-                1
-              </h3>
-              <h3 className='about-e'>
-                1
-              </h3>
-              <h3 className='about-e'>
-                1
-              </h3>
+            <div class="column3">
+              <h2 classname='sub-heading'>Technologies</h2>
+              <Tech />
             </div>
           </div>
         </div>

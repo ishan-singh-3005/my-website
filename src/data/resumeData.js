@@ -23,7 +23,7 @@ const data = [
         dates: ["May 2022 - Present", "\n", "July 2021 - September 2021", "July 2020 - September 2020"],
         title: "Software developer",
         description: "Working in an agile environement to develop internal tools for the organisation",
-        technologies: "Javascript, React, Angular, Typescript"
+        technologies: "Javascript, React, Express, MariaDB, Angular, Typescript"
       },
       {
         company: "University of Toronto",

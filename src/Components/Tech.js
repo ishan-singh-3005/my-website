@@ -37,7 +37,7 @@ class Tech extends Component {
       <img alt="star" src="../star.png" style={{width:'20px'}}></img>
       <img alt="star" src="../star.png" style={{width:'20px'}}></img>
       <img alt="star" src="../star.png" style={{width:'20px'}}></img>
-      <img alt="star" src="../starb.png" style={{width:'20px'}}></img>
+      <img alt="star" src="../star.png" style={{width:'20px'}}></img>
       <img alt="star" src="../starb.png" style={{width:'20px'}}></img><br/>
 
       <h3 className='tech'>Typescript</h3>

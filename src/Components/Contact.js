@@ -61,7 +61,7 @@ export default function Contact() {
     return(
         <div className="contact">
           <Tabs/>
-          <h2>Connect via <ReactRotatingText items={["LinkedIn", "GitHub", "Email"]} /></h2>
+          <h2 className="connect">Connect via <ReactRotatingText items={["LinkedIn", "GitHub", "Email"]} /></h2>
           <div className="contact-icons">
             <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px', marginRight:'5%'}}></img>
             <img onClick={navToGitHub} alt="GitHub" src="../github.png" style={{width:'80px', paddingBottom:"10px"}}></img>
@@ -70,7 +70,7 @@ export default function Contact() {
             </a>
               <h5>ishan423@gmail.com</h5>
           </div>
-          <h2>Or send an email via the form below: </h2>
+          <h2 className="connect">Or send an email via the form below: </h2>
           <div className="form">
               <form onSubmit={sendEmail}>
                   <div>

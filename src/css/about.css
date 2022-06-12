@@ -38,8 +38,8 @@ h1{
     color: #1d6b11;
 }
 
-h2{
-    margin-top: 3%;
+.sub-heading{
+    /* margin-top: 3%; */
     font-size: 40px;
     color: rgb(216, 236, 169);
 }
@@ -50,6 +50,8 @@ h2{
     font-weight: 200;
     line-height: 200%;
     margin-top: 0;
+    border: none;
+    /* display: block; */
 }
 
 .about-1{
@@ -71,8 +73,18 @@ h2{
     display: inline;
 }
 
+.tools{
+    margin: 0;
+    margin-right: 2%;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 200%;
+    display: block;
+}
+
 img{
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -84,7 +96,7 @@ hr{
 .column1 {
     float: left;
     width: 25%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .column2 {
@@ -94,29 +106,58 @@ hr{
     margin-top: 5%;
 }
 
+.column3 {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-@media screen and (max-width: 850px) {
-    img{
-        width: 250px;
+@media screen and (max-width: 950px) {
+    .stars{
+        width: 10px;
     }
     .column1{
-        width: 100%;
+        float: left;
+        width: 40%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 5%;
     }
     .column2{
-        width: 100%;
+        float: left;
+        width: 40%;
         margin-left: 5%;
-        margin-right: 5%;
+        /* margin-right: 5%; */
+        margin-top: 5%;
     }
     .about-e{
         font-size: 15px;
         margin-left: 15%;
         margin-right: 15%;
+    }
+    .sub-heading{
+        font-size: 2px;
+    }
+    .tools{
+        font-size: 15px;
+    }
+    .tech{
+        font-size: 15px;
+    }
+    .about-e{
+        display: block;
+    }
+    .column3{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
     }
  }
