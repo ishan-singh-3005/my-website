@@ -16,9 +16,9 @@ export default class App extends Component {
         <BrowserRouter>
           <Routes>
             <Route path="/my-website" element={<Home data={data}/>}/>
-            <Route path="/about" element={<About data={data}/>}/>
-            <Route path="/work" element={<Work data={data}/>}/>
-            <Route path="/contact" element={<Contact data={data}/>}/>
+            <Route path="/my-website/about" element={<About data={data}/>}/>
+            <Route path="/my-website/work" element={<Work data={data}/>}/>
+            <Route path="/my-website/contact" element={<Contact data={data}/>}/>
           </Routes>
         </BrowserRouter>
       </div>

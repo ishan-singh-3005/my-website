@@ -7,9 +7,9 @@ class Tabs extends Component {
     return(
         <div className='nav'>
           <a href="/my-website" role="button">Home</a>          
-          <a href="/about" role="button">About</a>
-          <a href="/work" role="button">Work</a>
-          <a href="/contact" role="button">Contact</a>
+          <a href="/my-website/about" role="button">About</a>
+          <a href="/my-website/work" role="button">Work</a>
+          <a href="/my-website/contact" role="button">Contact</a>
         </div>
       )
   }
