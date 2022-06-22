@@ -6,7 +6,7 @@ class Tabs extends Component {
   render() { 
     return(
         <div className='nav'>
-          <a href="/" role="button">Home</a>          
+          <a href="/my-website" role="button">Home</a>          
           <a href="/about" role="button">About</a>
           <a href="/work" role="button">Work</a>
           <a href="/contact" role="button">Contact</a>

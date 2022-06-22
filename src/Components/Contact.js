@@ -63,10 +63,10 @@ export default function Contact() {
           <Tabs/>
           <h2 className="connect">Connect via <ReactRotatingText items={["LinkedIn", "GitHub", "Email"]} /></h2>
           <div className="contact-icons">
-            <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px', marginRight:'5%'}}></img>
-            <img onClick={navToGitHub} alt="GitHub" src="../github.png" style={{width:'80px', paddingBottom:"10px"}}></img>
+            <img onClick={navToLinkedIn} alt="LinkedIn" src={require("../images/linkedin-logo.png")} style={{width:'100px', marginRight:'5%'}}></img>
+            <img onClick={navToGitHub} alt="GitHub" src={require("../images/github.png")} style={{width:'80px', paddingBottom:"10px"}}></img>
             <a href="mailto:myemailaddress@gmail.com" role="button" className="other">          
-              <img alt="Email" src="../email.png" style={{width:'90px'}}></img>
+              <img alt="Email" src={require("../images/email.png")} style={{width:'90px'}}></img>
             </a>
               <h5>ishan423@gmail.com</h5>
           </div>

@@ -1,5 +1,4 @@
 import './App.css';
-import $ from 'jquery';
 import Home from './Components/Home';
 import About from './Components/About';
 import Work from './Components/Work';
@@ -16,7 +15,7 @@ export default class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path="/home" element={<Home data={data}/>}/>
+            <Route path="/my-website" element={<Home data={data}/>}/>
             <Route path="/about" element={<About data={data}/>}/>
             <Route path="/work" element={<Work data={data}/>}/>
             <Route path="/contact" element={<Contact data={data}/>}/>

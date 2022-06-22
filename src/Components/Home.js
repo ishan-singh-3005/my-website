@@ -27,8 +27,8 @@ class Home extends Component {
             <ParticlesBg type="lines" bg={true} />
             <h1 className='name'>{name}</h1>
             <h2>I am a <ReactRotatingText items={suffix} /></h2>
-            <img onClick={navToLinkedIn} alt="LinkedIn" src="../linkedin-logo.png" style={{width:'100px',}}></img>
-            <img onClick={navToGitHub} alt="GitHub" src="../github.png" style={{width:'80px', paddingBottom:"10px"}}></img>
+            <img onClick={navToLinkedIn} alt="LinkedIn" src={require("../images/linkedin-logo.png")} style={{width:'100px',}}></img>
+            <img onClick={navToGitHub} alt="GitHub" src={require("../images/github.png")} style={{width:'80px', paddingBottom:"10px"}}></img>
         </header>
       )
   }

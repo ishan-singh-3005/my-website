@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/about.css';
 import Tabs from './Tabs';
-import Tech from './Tech'
+import Tech from './Tech';
 
 class About extends Component {
   render() {
@@ -29,7 +29,7 @@ class About extends Component {
         <div className='section'>
           <div class="row">
             <div class="column1">
-              <img alt="Profile" src="../20210712_163242.jpg"></img>
+              <img alt="Profile" src={require("../images/20210712_163242.jpg")}></img>
             </div>
             <div class="column2">
               <h3 className='about-e'>
